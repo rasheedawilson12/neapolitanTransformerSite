@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background-color: palegoldenrod;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.navBar {
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.option {
+  padding: 10px;
+  border-radius: 30px;
+  margin: 20px 25px;
+}
+
+.rowOne {
+  margin: 50px 0;
+}
+
+.chocolate {
+  background-color: #a46543;
+  color: white;
+}
+
+.strawberry {
+  background-color: #e090b9;
+  color: white;
+}
+
+.vanilla {
+  background-color: #ffeecb;
+}
+
+img {
+  width: 75%;
+}
+
+.rowOne {
+  display: flex;
+  justify-content: space-evenly;
+}
+.mainImg {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.txtDescription {
+  font-size: 20px;
+  width: 50%;
+  margin: 10px;
+}
+
+.lineOne {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.galleryImg {
+  display: flex;
+  justify-content: space-evenly;
+  width: 33%;
+}
+
+.imgOne,
+.imgTwo,
+.imgThree {
+  border: solid black;
+
+  height: 60%;
+}
